@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Karthik, Software Engineering student specializing in Java and AI Automation.">
+    <title>Karthik|Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">Karthik.</a>
+            <ul class="nav-links">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+                <span class="icon">☀️</span>
+            </button>
+            <button id="hamburger" class="hamburger-btn" aria-label="Open-Menu">
+                ☰
+            </button>
+        </nav>
+        <section id="hero" class="hero-container">
+            <div class="hero-content">
+                <p class="hero-greeting">Systemizing the digital world.</p>
+                <h1 class="hero-title">
+                    I engineer robust <span class="highlight">Java Systems</span><br>
+                    &amp; AI automation workflows.
+                </h1>
+                <p class="hero-subtitle">
+                    I am a software engineering student who takes extreme ownership of every line of code, building high-fidelity tools that solve real-world problems.
+                </p>
+                <div class="hero-cta-group">
+                    <a href="#projects" class="btn btn-primary">View my Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <img src="karthik_photo.jpeg" alt="Karthik-Software Engineer" class="profile-img">
+            </div>
+        </section>
+    </header>
+    <main>
+        <section id="projects" class="projects-section scroll-element">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                   <div class="project-content">
+                    <h3 class="project-title">Personal Portfolio Website</h3>
+                    <p class="project-desc">A responsive personal website to showcase my skills, projects, and contact information in a clean and modern design.</p>
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="#" class="project-link">Read Case Study &rarr;</a>
+                   </div> 
+                </article>
+                <article class="project-card">
+                   <div class="project-content">
+                    <h3 class="project-title">Weather Forecast App</h3>
+                    <p class="project-desc">A web application that fetches real-time weather data for any city and displays temperature, humidity, and conditions.</p>
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>OpenWeather API</span>
+                    </div>
+                    <a href="#" class="project-link">View Project &rarr;</a>
+                   </div> 
+                </article>
+                <article class="project-card">
+                   <div class="project-content">
+                    <h3 class="project-title">To-Do App</h3>
+                    <p class="project-desc">A simple productivity app to add, delete, and mark tasks as completed with data saved in the browser.</p>
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>LocalStorage</span>
+                    </div>
+                    <a href="#" class="project-link">View Code &rarr;</a>
+                   </div> 
+                </article>
+            </div>
+        </section>
+        <section id="about" class="about-section scroll-element">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-narrative">
+                    <p>
+                        I'm a B.Tech student at VESIT, Mumbai, passionate about building efficient software with Java, web technologies, and AI automation. I enjoy turning complex problems into practical solutions and believe in taking complete ownership of everything I build—from writing clean, scalable code to communicating ideas with clarity. Beyond technology, I'm constantly learning about leadership, accountability, and personal growth to become a better engineer and collaborator.
+                    </p>
+                    
+                </div>
+                <div class="about-skills">
+                    <h3>Core Toolkit</h3>
+                    <div class="tech-stack">
+                        <span>Java</span>
+                        <span>Object-Oriented Programming</span>
+                        <span>Google Apps Script</span>
+                        <span>AI Automation (n8n)</span>
+                        <span>Data Structures</span>
+                        <span>Web UI/UX</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact-section scroll-element">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <p class="contact-subtitle">Whether you have a question, a project idea or just want to discuss thermodynamics and system architecture, my inbox is open</p>
+
+                <form class="contact-form" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="John Doe" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="johndoe123@example.com" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="meassage">Message</label>
+                        <textarea rows="5" id="message" placeholder="Let's build something..." name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn">Send Message</button>
+                </form>
+            </div>
+
+        </section>
+    </main>
+    <footer></footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
